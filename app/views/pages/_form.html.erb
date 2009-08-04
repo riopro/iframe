@@ -1,0 +1,10 @@
+ <% form_for :image, :url => pages_path, :html => { :multipart => true, :target => 'upload_frame' }, :id => "upload_form" do |f| %>
+ <p>
+  <%= f.label "Arquivo com a imagem" %>
+  <br>
+  <%= f.file_field :uploaded_data %>
+ </p>
+ <p>
+  <%= submit_tag 'Enviar', :disable_with => 'salvando...', :class => 'button' %>
+ </p>
+ <% end %>

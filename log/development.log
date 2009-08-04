@@ -1,0 +1,278 @@
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:34:52) [GET]
+
+ActionView::MissingTemplate (Missing template pages/new.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:37:00) [GET]
+
+ActionView::MissingTemplate (Missing template pages/new.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:37:02) [GET]
+
+ActionView::MissingTemplate (Missing template pages/new.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:37:04) [GET]
+
+ActionView::MissingTemplate (Missing template pages/new.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:37:24) [GET]
+Rendering pages/new
+Completed in 49ms (View: 44, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:43:08) [GET]
+Rendering pages/new
+
+ActionView::TemplateError (undefined local variable or method `image' for #<ActionView::Base:0xb67199ac>) on line #8 of app/views/pages/new.html.erb:
+5: </title>
+6: </header>
+7: <body>
+8: <% form_for :image, image, :url => images_path, :html => { :multipart => true, :target => 'upload_frame' }, :id => "upload_form" do |f| %>
+9: <p>
+10:  <label for="image_uploaded_data">Arquivo de imagem</label>
+11:  <br>
+
+    app/views/pages/new.html.erb:8
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (102.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:45:05) [GET]
+Rendering pages/new
+
+ActionView::TemplateError (undefined method `label_t' for #<ActionView::Helpers::FormBuilder:0xb68a1e50>) on line #10 of app/views/pages/new.html.erb:
+7: <body>
+8: <% form_for :image, :url => pages_path, :html => { :multipart => true, :target => 'upload_frame' }, :id => "upload_form" do |f| %>
+9: <p>
+10:  <%= f.label_t "Arquivo com a imagem" %>
+11:  <br>
+12:  <%= f.file_field :uploaded_data %>
+13: </p>
+
+    app/views/pages/new.html.erb:10
+    app/views/pages/new.html.erb:8
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:46:13) [GET]
+Rendering pages/new
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 10:46:35) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-9910-1djmf3c-0>}}
+
+ActionView::MissingTemplate (Missing template pages/create.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:50:23) [GET]
+Rendering pages/new
+Rendered pages/_form (4.0ms)
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 10:53:57) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-9910-4xzjl2-0>}}
+
+NoMethodError (undefined method `responds_to_parent' for #<PagesController:0xb6848198>):
+  app/controllers/pages_controller.rb:18:in `create'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:54:24) [GET]
+Rendering pages/new
+Rendered pages/_form (2.3ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 10:54:28) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-9910-mditn7-0>}}
+
+NoMethodError (undefined method `responds_to_parent' for #<PagesController:0xb6810dc4>):
+  app/controllers/pages_controller.rb:18:in `create'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (76.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:56:07) [GET]
+Rendering pages/new
+Rendered pages/_form (2.3ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 10:56:10) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-9910-1osg4ia-0>}}
+
+NoMethodError (undefined method `responds_to_parent' for #<PagesController:0xb686ff54>):
+  app/controllers/pages_controller.rb:18:in `create'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (74.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:58:09) [GET]
+Rendering pages/new
+Rendered pages/_form (1.6ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 10:58:14) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-11896-xyhl17-0>}}
+Rendered pages/_form (0.7ms)
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/pages]
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:58:35) [GET]
+Rendering pages/new
+Rendered pages/_form (1.0ms)
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#new (for 127.0.0.1 at 2009-08-04 10:59:32) [GET]
+Rendering pages/new
+Rendered pages/_form (1.0ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 10:59:42) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-11896-1uo0s8b-0>}}
+Rendered pages/_form (0.7ms)
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/pages]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 11:01:04) [POST]
+  Parameters: {"authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-11896-1g11v7r-0>}}
+Rendered pages/_form (0.7ms)
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/pages]
+
+
+Processing PagesController#create (for 127.0.0.1 at 2009-08-04 11:01:22) [POST]
+  Parameters: {"authenticity_token"=>"HL+lC+6ei+EZZtasMlFrT3pscL0sOCs+Wfq3qbkrjcY=", "image"=>{"uploaded_data"=>#<File:/tmp/RackMultipart20090804-11896-1ydwqv7-0>}}
+Rendered pages/_form (0.8ms)
+Completed in 6ms (View: 0, DB: 0) | 200 OK [http://localhost/pages]
